@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <pv-card style="width: 25rem; overflow: hidden">
+  <card style="width: 25rem; overflow: hidden">
     <template #header>
     </template>
     <template #title>{{ item.name }}</template>
@@ -26,7 +26,7 @@ export default {
         <strong>Active Users</strong> {{ item.active_users }} <br>
       </p>
     </template>
-  </pv-card>
+  </card>
 </template>
 
 <style scoped>
